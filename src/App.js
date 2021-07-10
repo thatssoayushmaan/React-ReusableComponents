@@ -6,10 +6,13 @@ import "./styles.css";
 export default function App() {
   return (
     <div id="wrapper">
-      <Dashboard />
+      <Navbar />
+    <br />
+      <br />
+      <br />
       <div id="content-wrapper" className="d-flex flex-column">
         <div id="content">
-          <Navbar />
+          <Dashboard />
           <div className="container-fluid">
             <Container />
           </div>
